@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SoccerLeague</string>
+    <string name="team_name">Team Name</string>
+    <string name="points">Points: 0</string>
+    <string name="additional_attribute">Additional Attribute:</string>
+    <string name="your_button_text_here">Your Button Text Here</string>
+    <string name="generate_teams">Generate Teams</string>
+    <string name="city">City:</string>
+    <string name="coach_name">Coach Name:</string>
+    <string name="logo_url">Logo URL:</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/teamNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Team Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/pointsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Points"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/teamNameTextView"
+        app:layout_constraintStart_toEndOf="@id/teamNameTextView" />
+
+    <TextView
+        android:id="@+id/logoUrlTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="logo url"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@id/teamNameTextView"
+        app:layout_constraintTop_toBottomOf="@id/pointsTextView" />
+
+    <TextView
+        android:id="@+id/coachNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="coach name"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@id/teamNameTextView"
+        app:layout_constraintTop_toBottomOf="@id/logoUrlTextView" />
+
+    <TextView
+        android:id="@+id/cityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="city"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@id/teamNameTextView"
+        app:layout_constraintTop_toBottomOf="@id/coachNameTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
